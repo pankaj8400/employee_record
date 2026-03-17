@@ -13,9 +13,9 @@ app = FastAPI(
     title="HRMS Lite API",
     description="Lightweight Human Resource Management System",
     version="1.0.0",
-    docs_url="/docs",
-    redoc_url="/redoc",
-    openapi_url="/openapi.json"
+    docs_url="/api",          # ✅ Swagger UI here
+    redoc_url="/api/redoc",   # optional
+    openapi_url="/api/openapi.json"
 )
 
 # CORS middleware
